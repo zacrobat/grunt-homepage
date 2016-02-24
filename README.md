@@ -1,2 +1,2 @@
 # grunt-homepage
-My homepage - testing grunt
+Zac learning HTML, SASS, jQuery and Grunt!
