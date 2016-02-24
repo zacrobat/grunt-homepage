@@ -1,1 +1,30 @@
-body {}
+header {
+  background: #ccc;
+  ul {
+    // no dot points:
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    &:after {
+      @include clearfix;
+    }
+    li {
+      color: purple;
+      a {
+        color: grey;
+        text-decoration: none;
+        float: left;
+        padding: 10px;
+        &:hover {
+          background: white;
+          color: blue;
+        }
+      }
+    }
+  }
+}
+section {
+  .inner {
+    padding: 30px;
+  }
+}
