@@ -26,5 +26,74 @@ header {
 section {
   .inner {
     padding: 30px;
+    .btn-group {
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      button {
+        position: relative;
+        float: left;
+        color: #fff;
+        background-color: #5cb85c;
+        border-color: #4cae4c;
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 4px;
+        border-color: #398439;
+        &:hover {
+          color: #fff;
+          background-color: #449d44;
+          border-color: #398439;
+        }
+        &:first-child {
+          border-radius: 3px 0 0 3px;
+        }
+        &:last-child {
+          border-radius: 0 3px 3px 0;
+          border-left: 0;
+        }
+        .caret {
+          display: inline-block;
+          width: 0;
+          height: 0;
+          margin-left: 2px;
+          vertical-align: middle;
+          border-top: 4px dashed;
+          border-top: 4px solid\9;
+          border-right: 4px solid rgba(0, 0, 0, 0);
+          border-left: 4px solid rgba(0, 0, 0, 0);
+        }
+      }
+    }
+    button {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 40px;
+      display: inline-block;
+      padding: 0 30px;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      border: 0;
+      outline: 0!important;
+      background: #23a161;
+      border-radius: 4px;
+    }
   }
 }
